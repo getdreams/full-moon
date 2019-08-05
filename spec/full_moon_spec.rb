@@ -22,7 +22,7 @@ describe FullMoon::NextFullMoon do
     end
   end
 
-  it "NextFullMoon 2018-01-31" do
+  it "NextFullMoon 2018-01-31 new" do
     expect(FullMoon::NextFullMoon.next_full_moon_from(Time.parse('20180104 08:54:00'))).to eql(1517422824)
   end
 end
